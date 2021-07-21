@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="6dp"
+    android:background="@color/green"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/yellow"
+        android:text="ALERT_1"
+        android:textSize="30sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/yellow"
+        android:text="ALERT_2"
+        android:textSize="30sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/yellow"
+        android:text="ALERT_3"
+        android:textSize="30sp">
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/awjerry"
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+
+</LinearLayout>
